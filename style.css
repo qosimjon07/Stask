@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(196, 188, 188);
+}
+
+.containerr {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px 30px 20px;
+}
+
+.tasks {
+    font-size: 30px;
+    color: rgb(187, 186, 186);
+}
+
+#input-text {
+    width: 673px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#btn-submit {
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: blue;
+}
+
+.qiymatlar {
+    gap: 10px;
+    display: flex;
+    transition: 0.47s;
+    flex-direction: column;
+}
+
+.value-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-value {
+    padding: 5px 10px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 710px;
+    overflow: hidden;
+}
+
+.decoration {
+    text-decoration: line-through;
+}
+
+.value-close {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: red url(./close-removebg-preview.png) no-repeat center center;
+    background-size: 20px;
+    cursor: pointer;
+}

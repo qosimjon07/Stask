@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="containerr">
+        <span class="text-5xl">Tasks</span>
+        <span class="tasks"></span>
+        <form class="flex w-full justify-between" action="">
+            <input id="input-text" class="" type="text" name="" placeholder="New task">
+            <input id="btn-submit" class="" type="submit" value="+ Add">
+        </form>
+
+        <div class="flex justify-end gap-2 my-4">
+            <p class="complate px-4 py-2 font-medium rounded  bg-yellow-500">Clear completed</p>
+            <p class="clearAll px-4 py-2 font-medium rounded  bg-red-400">Clear All</p>
+        </div>
+
+        <div class="qiymatlar">
+            <div class="value-box">
+                <div class="input-value decoration">Make todo list</div>
+                <div class="value-close"></div>
+            </div>
+            <div class="value-box">
+                <div class="input-value">GO skydiving</div>
+                <div class="value-close"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
